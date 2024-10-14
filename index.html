@@ -265,18 +265,21 @@
     </section>
     
     <!-- Portfolio Section -->
-    <section id="portfolio">
+    <div class="container" id="portfolio">
+        <h1 class="mb-5"><span class="text-danger">My</span> Projects</h1></div>
+
+    <section>
         <video id="slider" autoplay loop muted controls>
             <source src="./assets/P.Vids/FYP.mov" type="video/mp4">
         </video>
 
         <ul class="navigation">
-            <li><img onclick="videoUrl('./assets/P.Vids/FYP.mov')" src="./assets/engr.PNG" alt=""></li>
-            <li><img onclick="videoUrl('./assets/P.Vids/ECC.mp4')" src="./assets/engr.PNG" alt=""></li>
-            <li><img onclick="videoUrl('./assets/P.Vids/FIFA.mp4')" src="./assets/engr.PNG" alt=""></li>
-            <li><img onclick="videoUrl('./assets/P.Vids/QEA.mp4')" src="./assets/engr.PNG" alt=""></li>
-            <li><img onclick="videoUrl('./assets/P.Vids/WL.mp4')" src="./assets/engr.PNG" alt=""></li>
-            <li><img onclick="videoUrl('./assets/P.Vids/PMH.mp4')" src="./assets/engr.PNG" alt=""></li>
+            <li><img onclick="videoUrl('./assets/P.Vids/FYP.mov')" src="./assets/P.Vids/tfyp.PNG" alt=""></li>
+            <li><img onclick="videoUrl('./assets/P.Vids/ECC.mp4')" src="./assets/P.Vids/tecc.PNG" alt=""></li>
+            <li><img onclick="videoUrl('./assets/P.Vids/FIFA.mp4')" src="./assets/P.Vids/tfifa.PNG" alt=""></li>
+            <li><img onclick="videoUrl('./assets/P.Vids/QEA.mp4')" src="./assets/P.Vids/tqea.PNG" alt=""></li>
+            <li><img onclick="videoUrl('./assets/P.Vids/WL.mp4')" src="./assets/P.Vids/twml.PNG" alt=""></li>
+            <li><img onclick="videoUrl('./assets/P.Vids/PMH.mp4')" src="./assets/P.Vids/tpmh.PNG" alt=""></li>
         </ul>
     </section>
     <style>
@@ -599,7 +602,7 @@ section .navigation li img:hover {
     <div class="section bg-dark py-5">
         <div class="container text-center">
             <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
-            <button class="btn-rounded" style="background-color: #151414;"><a href="https://www.freelancer.com/u/ArbazMoin?sb=t">Hire me</button></a>
+            <button class="btn-rounded" style="background-color: #151414; height: 50px; width: 500px;"><a href="https://www.freelancer.com/u/ArbazMoin?sb=t">Hire me</button></a>
         </div>
     </div>
     <!-- <div class="section contact" id="contact">
@@ -685,7 +688,7 @@ section .navigation li img:hover {
   border-bottom: 1px solid #373636;
 }
 .single-cta i {
-  color: #ff5e14;
+  color: #b60000;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -771,7 +774,7 @@ section .navigation li img:hover {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #ff5e14;
+  background: #ff0000;      /*--useful underline*/
 }
 .footer-widget ul li {
   display: inline-block;
@@ -780,13 +783,13 @@ section .navigation li img:hover {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-  color: #ff5e14;
+  color: #500101;           /*--useful text hover underline*/
 }
 .footer-widget ul li a {
   color: #878787;
   text-transform: capitalize;
 }
-.subscribe-form {
+/*.subscribe-form {
   position: relative;
   overflow: hidden;
 }
@@ -809,7 +812,7 @@ section .navigation li img:hover {
   color: #fff;
   font-size: 22px;
   transform: rotate(-6deg);
-}
+}*/
 .copyright-area{
   background: #202020;
   padding: 25px 0;
@@ -820,14 +823,14 @@ section .navigation li img:hover {
   color: #878787;
 }
 .copyright-text p a{
-  color: #ff5e14;
+  color: #880000;
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: #380505;
 }
 .footer-menu li a {
   font-size: 14px;
