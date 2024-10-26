@@ -269,12 +269,12 @@
         <h1 class="mb-5"><span class="text-danger">My</span> Projects</h1>
     </div>
 
-    <section>
+    <section class="sectiona">
         <video id="slider" autoplay loop muted controls>
             <source src="./assets/P.Vids/FYP.mov" type="video/mp4">
         </video>
 
-        <ul class="navigation">
+        <ul class="navigation" >
             <li><img onclick="videoUrl('./assets/P.Vids/FYP.mov')" src="./assets/P.Vids/tfyp.PNG" alt=""></li>
             <li><img onclick="videoUrl('./assets/P.Vids/ECC.mp4')" src="./assets/P.Vids/tecc.png" alt=""></li>
             <li><img onclick="videoUrl('./assets/P.Vids/FIFA.mp4')" src="./assets/P.Vids/tfifa.PNG" alt=""></li>
@@ -290,13 +290,13 @@
     box-sizing: border-box;
 }
 
-section {
+.sectiona {
     position: relative;
     width: 100%;
     height: 100vh;
 }
 
-section video {
+.sectiona video {
     position: absolute;
     top: 0;
     left: 0;
@@ -305,7 +305,7 @@ section video {
     object-fit: cover;
 }
 
-section .navigation {
+.sectiona .navigation {
     position: absolute;
     bottom: 40px;
     left: 50%;
@@ -316,7 +316,7 @@ section .navigation {
     align-items: center;
 }
 
-section .navigation li {
+.sectiona .navigation li {
     list-style: none;
     cursor: pointer;
     margin: 0 10px;
@@ -327,18 +327,18 @@ section .navigation li {
     transition: 0.5s;
 }
 
-section .navigation li:hover {
+.sectiona .navigation li:hover {
     opacity: 1;
 }
 
 
-section .navigation li img {
-    width: 120px;
+.sectiona .navigation li img {
+    width: 100%;
     transition: 0.5s;
 }
 
-section .navigation li img:hover {
-    width: 200px;
+.sectiona .navigation li img:hover {
+    width: 100%;
 }
      </style>
 
@@ -603,7 +603,7 @@ section .navigation li img:hover {
     <section class="section bg-dark py-5">
         <div class="container text-center">
             <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
-            <button class="btn-rounded" style="background-color: #a10000; height: 50px; width: 500px;"><a href="https://www.freelancer.com/u/ArbazMoin?sb=t">Hire me</button></a>
+            <button class="btn-rounded" style="background-color: #a10000; height: 50px; width: 50%;"><a href="https://www.freelancer.com/u/ArbazMoin?sb=t">Hire me</button></a>
         </div>
     </section>
     <!-- <div class="section contact" id="contact">
